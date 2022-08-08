@@ -11,15 +11,18 @@ body {
 }
 nav {
     border-bottom: 1px solid #fff;
-    display: inline-flex;
-    justify-content: space-between;
-
     height: 69px;
+    display: flex;
+    justify-content: space-between;
 }
-.side-nav{
-    
+.side-nav a{
+    text-decoration: none;
 }
 .logo {
     height: 50px;
     margin: 10px;
+}
+.tea-section img {
+    height: 200px;
+    width: 300px;
 }
