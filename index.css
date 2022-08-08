@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;
+    color: #fff5ee;
+    background-color: #000;
+}
+nav {
+    border-bottom: 1px solid #fff;
+    display: inline-flex;
+    justify-content: space-between;
+
+    height: 69px;
+}
+.side-nav{
+    
+}
+.logo {
+    height: 50px;
+    margin: 10px;
+}
