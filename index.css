@@ -8,20 +8,50 @@ body {
     font-size: 22px;
     color: #fff5ee;
     background-color: #000;
+    opacity: 0.9;
 }
+
+/*Navigation Header*/
+
 nav {
-    border-bottom: 1px solid #fff;
     height: 69px;
+    border-bottom: 1px solid #fff;
     display: flex;
+    /*Space between the nav image and the nav link items*/
     justify-content: space-between;
+    /*Centers nav items on the cross axis*/
+    align-items: center;
+    /*Nav bar will not move, remains fixed in the position*/
+    position: static;
 }
-.side-nav a{
-    text-decoration: none;
+.nav-links a {
+    /* underline visible for anchor in nav-links class*/
+    text-decoration: underline;
+    color: #fff5ee;
+    margin: 20px;
 }
 .logo {
     height: 50px;
     margin: 10px;
 }
+
+/*Mission Section*/
+
+.mission-section {
+
+}
+.img-mission {
+
+}
+.mission-text {
+    position: relative;
+    top: 50%;
+    background-color: #000;
+    text-align: center;
+    align-items: center;
+}
+
+/*Monthly Tea Section*/
 .tea-section img {
     height: 200px;
     width: 300px;
