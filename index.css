@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: none;
-}
 body {
     font-family: "Helvetica", sans-serif;
     font-size: 22px;
@@ -46,13 +41,13 @@ nav {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1200px 700px;
+    background-size: 1200px;
     height: 700px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 .mission-text {
-    position: static;
+    margin: auto;
     top: 50%;
     background-color: #000;
     text-align: center;
@@ -64,10 +59,21 @@ nav {
 .monthly-tea-title {
     text-align: center;
 }
+
 .tea-section {
-    display: inline-flex;
+    display: flex;
+    /*Centers everything. margin: auto on an element pushes it away from all sides equally (margin-left, margin-right, etc)*/
+    margin: auto;
+    /*Appropriately spaces and centers the bottom row of items in flex wrap*/
+    justify-content: center;
+    /*Wraps all tea so they are organized with contrstraints of 1000px width*/
+    flex-wrap: wrap;
+    /*Limits width of tea container to 1000px*/
+    width: 1000px;
+    text-align: center;
 }
 .tea-section img {
     height: 200px;
     width: 300px;
+    margin: 10px;
 }
