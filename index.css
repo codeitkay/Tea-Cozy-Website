@@ -14,15 +14,17 @@ body {
 /*Navigation Header*/
 
 nav {
+    /*Nav bar will move, as users scroll. Top is 0px because when user scroll reaches threshold of 0 the sticky nav will activate*/
+    position: sticky;
+    top: 0px;
     height: 69px;
+    background-color: #000;
     border-bottom: 1px solid #fff;
     display: flex;
     /*Space between the nav image and the nav link items*/
     justify-content: space-between;
     /*Centers nav items on the cross axis*/
     align-items: center;
-    /*Nav bar will not move, remains fixed in the position*/
-    position: static;
 }
 .nav-links a {
     /* underline visible for anchor in nav-links class*/
@@ -38,20 +40,33 @@ nav {
 /*Mission Section*/
 
 .mission-section {
-
-}
-.img-mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px 700px;
+    height: 700px;
+    margin-bottom: 100px;
 
 }
 .mission-text {
-    position: relative;
+    position: static;
     top: 50%;
     background-color: #000;
     text-align: center;
     align-items: center;
+    width: 1200px;
 }
 
 /*Monthly Tea Section*/
+.monthly-tea-title {
+    text-align: center;
+}
+.tea-section {
+    display: inline-flex;
+}
 .tea-section img {
     height: 200px;
     width: 300px;
