@@ -47,8 +47,6 @@ nav {
 
 }
 .mission-text {
-    margin: auto;
-    top: 50%;
     background-color: #000;
     text-align: center;
     align-items: center;
@@ -78,9 +76,10 @@ nav {
     margin: 10px;
 }
 /*Location Section*/
-,location-title {
-    display: flex;
+.location-title {
+    display: blo;
     justify-content: center;
+    align-content: center;
     margin: auto;
 }
 .location-section{
