@@ -96,8 +96,20 @@ nav {
     display: inline-block;
     height: 300px;
     width: 300px;
+    line-height: 2;
     background-color: #000;
     margin: 15px 40px;
     text-align: center;
     opacity: 1;
+}
+/*About Info Section*/
+footer {
+    text-align: center;
+}
+.contact-info {
+    height: 200px;
+}
+footer .copyright {
+    text-align: left;
+    margin-left: 20px;
 }
